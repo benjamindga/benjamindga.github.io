@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: crimson;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.logo a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-links li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
