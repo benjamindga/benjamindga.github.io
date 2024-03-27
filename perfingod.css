@@ -1,0 +1,117 @@
+
+#body_targ{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .container{
+    box-shadow:   3px 6px 160px rgb(212, 207, 207);
+    border:0;
+    margin: auto;
+    display: flex;
+    background-color: yellow;
+    width: 700px;
+    height: 600px;
+    flex-direction: column;
+    border-radius: 3%;
+  }
+  .banner{
+    display: flex;
+    background-color: red;
+    height: 20%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .imgperfil{
+    border: 3px solid white;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    position: relative;
+    top: -10%;
+    right: -5%;
+  }
+  h1{
+    margin-left:7%;
+    margin-top: -7%;
+    margin-bottom: -4%;
+  }
+  .text{
+    margin: 7%;
+  }
+  .edit{
+    border: 0;
+    width: 15%;
+    height: 7%;
+    margin-left: 7%;
+    text-align: center;
+  }
+  body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color:black;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.logo a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-links li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#abajo{
+  box-shadow:   3px 6px 160px rgb(212, 207, 207);
+  border:0;
+  margin: 0;
+  width: 700px;
+  height: 150px;
+  flex-direction: column;
+  border-radius: 3%;
+  background-color: chartreuse;
+}
+.container1{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-top: 89px;
+}
+.container1 h1{
+  padding-top: 7vh;
+}
